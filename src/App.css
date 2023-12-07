@@ -62,6 +62,7 @@ body {
   color: #a3a3a3;
   font-weight: 500;
   position: relative;
+  text-transform: uppercase;
 }
 
 @media (max-width: 768px) {
