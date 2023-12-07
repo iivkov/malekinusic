@@ -14,7 +14,7 @@ const AboutComponent = () => {
                 <h1>O nama</h1>
                 <div className="container">
                     <div className={`box left ${animate ? 'enter' : 'left-enter'}`}>
-                        <p>Bavimo se završnim građevinskim radovima. Izvodimo fasaderske, soboslikarske, keramičarske kao i knauferske radove, odnosno radove suhe gradnje. 
+                        <p>Naša glavna djelatnost su završni građevinski radovi. Izvodimo fasaderske, soboslikarske, keramičarske kao i knauferske radove, odnosno radove suhe gradnje. 
                             Pored toga radimo i kompletne adaptacije stanova, kuća, kupaonica i potkrovlja. Sjedište naše tvrtke je u mjestu Ivanić-Grad, a poslujemo na području cijele Hrvatske. </p>
                     </div>
                 {/* <div className="spacer"></div> */}
