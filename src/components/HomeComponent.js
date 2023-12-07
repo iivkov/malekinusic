@@ -19,11 +19,11 @@ const HomeComponent = () => {
             </div>
             {/* <div className="spacer"></div> */}
             <div className={`box right ${animate ? 'enter' : 'right-enter'}`}>
-                <p>Tvrtka MALEKINUŠIĆ d.o.o. aktivna je na našem tržištu od 2014. godine i od tada vrlo uspješno posluje. Bavimo se završnim građevinskim radovima. 
-                    Izvodimo fasaderske, soboslikarske, keramičarske kao i knauferske radove, odnosno radove suhe gradnje. Pored toga radimo i kompletne adaptacije stanova, kuća, kupaonica i potkrovlja. 
-                    Usmjereni smo isključivo na Vaše zamisli i želje, te nam je glavni cilj da konačna izvedba bude Vaš zahtjev, a naš maksimalno uloženi trud. Suradnja s Vama počiva na profesionalnoj, ugodnoj i pouzdanoj razini. 
-                    Na prvom mjestu je zadovoljstvo klijenta, kao i kvalitetno izvršen posao. Svi djelatnici u tvrtki pristupaju svakom projektu s najvišom posvećenosti i pozornosti. Uvjerite se u našu učinkovitost, brzinu, točnost i kvalitetu. 
-                    Sjedište naše tvrtke je u mjestu Ivanić-Grad, a poslujemo na području cijele Hrvatske. Stojimo Vam na raspolaganju. Čekamo Vaš poziv.</p>
+                <p>Tvrtka Malekinušić d.o.o. aktivna je na našem tržištu od 2014. godine i od tada vrlo uspješno posluje. Bavimo se završnim građevinskim radovima.
+                    Usmjereni smo isključivo na Vaše zamisli i želje, te nam je glavni cilj da konačna izvedba bude Vaš zahtjev, a naš maksimalno uloženi trud. 
+                    Suradnja s Vama počiva na profesionalnoj, ugodnoj i pouzdanoj razini. Na prvom mjestu je zadovoljstvo klijenta, kao i kvalitetno izvršen posao. 
+                    Svi djelatnici u tvrtki pristupaju svakom projektu s najvišom posvećenosti i pozornosti. Uvjerite se u našu učinkovitost, brzinu, točnost i kvalitetu. 
+                    Stojimo Vam na raspolaganju. Čekamo Vaš poziv.</p>
             </div>
         </div>
     </div>
