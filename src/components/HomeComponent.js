@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import '../App.css';
 import EUnoteSite from './EUnoteSite';
+import slika from '../assets/dv_roda_2-5.gif';
 
 const HomeComponent = () => {
     const [animate, setAnimate] = useState(false);
@@ -15,7 +16,7 @@ const HomeComponent = () => {
         <h1>Dobrodošli!</h1>
         <div className="container">
             <div className={`box left ${animate ? 'enter' : 'left-enter'}`}>
-                {/* <img src={slika} alt="Slika građevinskih radova." style={{ width: '100%', height: 'auto' }} /> */}
+                <img src={slika} alt="Slika građevinskih radova." style={{ width: '100%', height: 'auto' }} />
             </div>
             {/* <div className="spacer"></div> */}
             <div className={`box right ${animate ? 'enter' : 'right-enter'}`}>

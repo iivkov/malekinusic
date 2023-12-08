@@ -5,6 +5,7 @@
   --initial-h2-font-size: 25px; 
   --initial-p-font-size: 20px; 
   --navbar-footer-color: #333333;
+  --navbar-footer-font-color: #cccccc;
 }
 
 body {
@@ -54,12 +55,12 @@ body {
 .nav-elements ul a {
   font-size: 16px;
   font-weight: 400;
-  color: white;
+  color: var(--navbar-footer-font-color);;
   text-decoration: none;
 }
 
 .nav-elements ul a.active {
-  color: #a3a3a3;
+  color: white;
   font-weight: 500;
   position: relative;
   text-transform: uppercase;
@@ -90,7 +91,7 @@ body {
   }
 
   .nav-elements.active {
-    width: 50%;
+    width: 60%;
   }
 
   .nav-elements ul {
@@ -108,7 +109,7 @@ body {
   height: 250px;
   display: flex;
   background-color: var(--navbar-footer-color);;
-  color: white;
+  color: var(--navbar-footer-font-color);
   position: relative;
   align-items: center;
 }
