@@ -1,6 +1,6 @@
 import React, {useState, useEffect } from 'react';
 import '../App.css';
-// import anigif from '../assets/anigif.gif';
+import slika from '../assets/dv_roda_1.jpg';
 
 const AboutComponent = () => {
     const [animate, setAnimate] = useState(false);
@@ -19,7 +19,7 @@ const AboutComponent = () => {
                     </div>
                 {/* <div className="spacer"></div> */}
                     <div className={`box right ${animate ? 'enter' : 'right-enter'}`}>
-                        {/* <img src={anigif} alt="Slika građevinskih radova." style={{ width: '100%', height: 'auto' }} /> */}
+                        <img src={slika} alt="Slika građevinskih radova." style={{ width: '100%', height: 'auto' }} />
                     </div>
                 </div>
             </div>
