@@ -4,8 +4,8 @@ import '../App.css';
 
 const ContactComponent = () => {
     const form = useRef();
-    const SERVICE_ID = "service_9qzvnm9";
-    const TEMPLATE_ID = "template_42h3ixv";
+    const SERVICE_ID = "service_iyo3ixx";
+    const TEMPLATE_ID = "template_ouyd2q8";
     const PUBLIC_KEY = "JaqES2t07KyP4xRAt";
     const [animate, setAnimate] = useState(false);
 
