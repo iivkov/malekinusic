@@ -36,7 +36,7 @@ const ProjectsComponent = () => {
         <EUnoteProject />
         <div className="container">
             <div className="activity-box">
-                    <h3>Aktivnosti projekta:</h3>
+                    <h3>Aktivnosti projekta</h3>
                     <p>Aktivnost 1: Ulaganje u materijalnu imovinu (1/2)</p>
                     <p>Aktivnost 2: Marketing i promocija proizvoda i usluga</p>
                     <p>Aktivnost 3: Edukacije, stručno osposobljavanje i stjecanje novih znanja zaposlenika</p>
@@ -49,7 +49,7 @@ const ProjectsComponent = () => {
         </div>
         <div className="container">
             <div className="activity-box">
-                    <h3>Sve aktivnosti nabave iz predmetnog projekta:</h3>
+                    <h3>Sve aktivnosti nabave iz predmetnog projekta</h3>
                     <p>1. planiran je postupak nabave</p>
                     <p>2. određene su karakteristike roba i/ili usluga koje se planiraju nabavljati u postupku nabave</p>
                     <p>3. proveden je postupak nabave</p>
