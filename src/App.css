@@ -204,6 +204,10 @@ p {
   /* z-index: -1; */
 }
 
+.bottom-border {
+  border: 1px solid var(--navbar-footer-color);
+}
+
 .box-EU {
   width: fit-content;
   padding: 10px;
